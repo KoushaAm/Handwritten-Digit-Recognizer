@@ -16,8 +16,8 @@ class Net(nn.Module):
 
         # 25% of neurons 
         # then 50% of neurons 
-        self.dropout1 = nn.Dropout2d(0.25) 
-        self.dropout2 = nn.Dropout2d(0.5) 
+        self.dropout1 = nn.Dropout(0.25) 
+        self.dropout2 = nn.Dropout(0.5) 
 
         # when input is compact enough fc layer is used: each node has its own weight
         # 12* 12 * 64 = 9216 is input size
@@ -29,7 +29,7 @@ class Net(nn.Module):
     # forward function
     def forward(self, x): 
         # h = 280, w = 280, c = 4 (r, g, b, a)
-        # parts draws have alpha of 255 and undrawin are 0
+        # parts drawn have alpha of 255 and undrawin are 0
         x = x.reshape(280, 280, 4)
 
         # get the alpha channel
