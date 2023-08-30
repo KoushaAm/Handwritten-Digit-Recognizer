@@ -18,7 +18,6 @@ Handwritten Digit Recognition using React.js and PyTorch
 - [Backend](#backend)
 - - [Model Architecture](#model-architecture)
 - - [Preprocessing](#preprocessing)
-- - [Running the Model](#running-the-model)
 - [Deployment](#deployment)
 - [License](#license)
 
