@@ -1,8 +1,4 @@
 # Handwritten-Digit-Transformer
-Certainly! Here's a detailed GitHub documentation outline based on your provided model architecture:
-
-## Project Title
-
 Handwritten Digit Recognition using React.js and PyTorch
 
 ### Table of Contents
