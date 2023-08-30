@@ -20,7 +20,6 @@ Handwritten Digit Recognition using React.js and PyTorch
 - - [Preprocessing](#preprocessing)
 - - [Running the Model](#running-the-model)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
 - [License](#license)
 
 ### Introduction
@@ -37,8 +36,7 @@ Handwritten Digit Recognition is a project that demonstrates how to build a web 
 - ONNX.js
 
 #### Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/handwritten-digit-recognition.git`
+1. clone project
 2. Navigate to the project directory: `cd handwritten-digit-recognition`
 3. Install frontend dependencies: `npm install`
 4. Install backend dependencies: `pip install torch onnxjs`
@@ -69,8 +67,6 @@ Provide screenshots and descriptions of the user interface, including the canvas
 
 #### Model Architecture
 
-Explain the architecture of your PyTorch model:
-
 - Convolutional layers with ReLU activations
 - Dropout layers for regularization
 - Fully connected layers for classification
@@ -79,11 +75,8 @@ Explain the architecture of your PyTorch model:
 
 - Data augmentation is used to increase the variety of cases and for better quality of training
   
-#### Running the Model
+<img width="564" alt="model_architecture" src="https://github.com/KoushaAm/Handwritten-Digit-Transformer/assets/67440795/2eaa0b15-6ab9-49a7-a2d5-79ac4d815a67">
 
-
-
-### architecture 
 Input Reshaping and Preprocessing:
 
 The model takes as input a grayscale image of size 280x280 pixels with an alpha channel. Each pixel represents the intensity of the grayscale color.
@@ -123,24 +116,4 @@ Provide instructions for deploying your application:
 - Steps to deploy frontend and backend
 - Any server setup required
 
-### Contributing
 
-Guide potential contributors on how to contribute to your project:
-
-- Set up a development environment
-- Explain your version control workflow
-- Provide guidelines for submitting pull requests
-
-### License
-
-Specify the license under which your project is distributed. Include a link to the full license text if applicable.
-
-## Additional Tips:
-
-- Use code snippets and visuals to illustrate concepts.
-- Provide explanations for complex sections, like model architecture and deployment.
-- Include a "Troubleshooting" section to address common issues.
-- Update your documentation as the project evolves.
-- Encourage users to reach out for help or clarifications.
-
-Remember, well-documented projects are more accessible and likely to attract contributors.
