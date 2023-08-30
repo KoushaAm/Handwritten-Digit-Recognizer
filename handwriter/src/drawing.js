@@ -35,7 +35,7 @@ function drawLine(x0, y0, x1, y1) {
   ctx.closePath();
 
   ctx.stroke();
-  updatePredictions();
+  // updatePredictions();
 }
 
 
