@@ -15,6 +15,7 @@ Handwritten Digit Recognition using React.js and PyTorch
 - - [Model Architecture](#model-architecture)
 - - [Preprocessing](#preprocessing)
 - [Deployment](#deployment)
+- [Gallery](#gallery)
 - [License](#license)
 
 ### Introduction
@@ -109,6 +110,9 @@ Provide instructions for deploying your application:
 - Hosting platforms (e.g., Netlify, Vercel, Heroku)
 - Steps to deploy frontend and backend
 - Any server setup required
+
+### Gallery
+<img width="1440" alt="Screenshot 2023-08-29 at 6 59 31 PM" src="https://github.com/KoushaAm/Handwritten-Digit-Transformer/assets/67440795/198a4a45-dcee-4cfc-8c1e-6dc578d6a0a0">
 
 
 ### License
