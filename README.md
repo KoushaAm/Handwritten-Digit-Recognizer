@@ -40,7 +40,6 @@ Handwritten Digit Recognition is a project that demonstrates how to build a web 
 
 #### Project Structure
 
-Explain the structure of your React.js frontend:
 
 - `src/`: Contains React components and application logic
 - `public/`: Holds static assets like HTML and images
