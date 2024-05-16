@@ -7,7 +7,6 @@ Handwritten Digit Recognition using React.js and PyTorch
 - [Getting Started](#getting-started)
 - - [Prerequisites](#prerequisites)
 - - [Installation](#installation)
-- [Frontend](#frontend)
 - - [Project Structure](#project-structure)
 - - [Components](#components)
 - - [User Interface](#user-interface)
@@ -35,16 +34,6 @@ Handwritten Digit Recognition is a project that demonstrates how to build a web 
 2. Navigate to the project directory: `cd handwritten-digit-recognition`
 3. Install frontend dependencies: `npm install`
 4. Install backend dependencies: `pip install torch onnxjs`
-
-### Frontend
-
-#### Project Structure
-
-
-- `src/`: Contains React components and application logic
-- `public/`: Holds static assets like HTML and images
-- `src/components/`: Contains various React components
-- `src/App.js`: Main application entry point
 
 #### Components
 
@@ -76,7 +65,7 @@ Input Reshaping and Preprocessing:
 The model takes as input a grayscale image of size 280x280 pixels with an alpha channel. Each pixel represents the intensity of the grayscale color.
 The alpha channel is extracted from the image, as it represents the drawn portion of the digit.
 
-#### Normalization and Rescaling:
+#### Standardization and Rescaling:
 
 The alpha channel values are normalized to a range between 0 and 1.
 The normalized values are then rescaled to have a mean of 0.1307 and a standard deviation of 0.3081. This standardization helps the model's convergence during training.
