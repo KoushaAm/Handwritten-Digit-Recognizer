@@ -31,7 +31,7 @@ Handwritten Digit Recognition is a project that demonstrates how to build a web 
 #### Installation
 1. clone project
 2. Navigate to the project directory: `cd handwritten-digit-recognition`
-3. Install frontend dependencies: `npm install`
+3. Install frontend dependencies: ç
 4. Install backend dependencies: `pip install torch onnxjs`
 
 #### Components
@@ -44,6 +44,9 @@ Detail the key components in your React frontend:
 #### User Interface
 
 Provide screenshots and descriptions of the user interface, including the canvas for drawing digits and the prediction display.
+
+### Frontend
+- Uses React app to run inference on the handwritten digits. It includes a drawable canvas for user to draw a number. Start the app by `npm start` 
 
 ### Backend
 
